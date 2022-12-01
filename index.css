@@ -1,3 +1,9 @@
+
+:root{
+    --primari-color:rgb(45, 108, 133); 
+}
+
+
 *{
     padding: 0;
     margin: 0;
@@ -119,6 +125,7 @@ nav ul .login{
 .about h2{
     padding: 5px;
     margin-bottom: 50px;
+    font-size: 2rem;
 }
 .about p{
     padding: 5px;
@@ -143,4 +150,86 @@ nav ul .login{
     height: 80vh;
     border-radius: 30px;
     box-shadow: 10px 10px 20px 20px rgb(45, 108, 133);
+    object-fit: cover;
+}
+
+/* --------------------------skills section------------------------------------- */
+
+.container{
+    margin: 7rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.skills-card{
+    width: 30rem;
+    padding: 10px;
+    margin-left: 5rem;
+
+}
+label{
+    position: relative;
+    left: 40%;
+    font-size: 2rem;
+    font-weight: bold;
+    
+}
+.design{
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: rgb(200, 236, 240) 5px 1px 5px 5px;
+    
+}
+h1{
+    font-size: 1.5rem;
+    padding: 5px;
+    margin-left: 100px;
+}
+h2{
+    font-size: 1rem;
+    padding: 5px;
+    color: rgb(45, 108, 133);
+}
+p{
+    font-size: 1rem;
+    padding: 5px;
+}
+#file{
+   padding: 1.8rem;
+    width: 20rem;
+    text-align: center; 
+    margin-top: 10px;
+    
+}
+progress:after{ 
+    content:attr(value)'%'; 
+    
+} 
+progress::-moz-progress-bar {
+    background: var(--primari-color);
+}
+progress::-webkit-progress-value {
+    background: var(--primari-color);
+}
+
+
+/* ---------------------------------works section------------------------------------- */
+
+.work-container{
+    margin: 7rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.work{
+    width: 70%;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: rgb(200, 236, 240) 5px 1px 5px 5px;
+
+}
+
+.work img{
+    width: 100%;
+    object-fit: cover;
+    max-height: 30vh;
+    border-radius: 50%;
 }
