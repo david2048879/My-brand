@@ -1,0 +1,46 @@
+.headings{
+    display: flex;
+    flex-direction: row;
+    background: black;
+    width: 100%;
+}
+.web-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.web-box{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+.web-box img{
+    width: 70%;
+}
+.web-box h2,h3{
+    padding: 10px;
+    color: rgb(51, 119, 178);
+}
+
+
+/* ===================baner Section========================== */
+
+.baner-section{
+    background-color: rgb(232, 224, 224);
+    width: 100%;
+    display: flex;
+}
+.baner-content{
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    width: 70%;
+    margin-right: 30%;
+}
+.baner-content .content{
+    background: blue;
+
+}
+.baner-image img{
+    width: 50%;
+    margin-left: 15%;
+}
