@@ -1,10 +1,27 @@
-.headings{
+
+:root{
+    --primari-color:rgb(45, 108, 133); 
+}
+
+.blog-heading{
+    position: absolute;
+    top: 10%;
+    width: 70%;
+    position: fixed;
+    margin-left: 20%;
+    z-index: 1000;
+    
+}
+.blog-heading ul{
     display: flex;
-    flex-direction: row;
-    background: black;
-    width: 100%;
+    justify-content: space-around;
+    gap: 10px;
+}
+.blog-heading ul li a{
+    color:#22cf91
 }
 .web-container{
+    margin-top: 15%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
@@ -25,22 +42,132 @@
 /* ===================baner Section========================== */
 
 .baner-section{
-    background-color: rgb(232, 224, 224);
+    background-color: rgb(0, 0, 0);
     width: 100%;
     display: flex;
+    color: white;
 }
-.baner-content{
+
+.baner-image img{
+    width: 40%;
+    margin-left: 10%;
+}
+.contant-blog{
+    position: absolute;
+    left: 60%;
+    width: 35%;
+    padding: 20px;
+}
+.contant-blog h1{
+    padding: 10px;
+}
+.values{
+    padding: 10px;
+    margin-left: 20px;
+}
+.values u{
+    padding: 20px;
+}
+.values h1{
+    margin-left: 10px;
+}
+.values u li{
+    list-style:circle;
+}
+.learn-more i{
+color: white;
+}
+
+.web-development{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.web-development .web-box{
+    padding: 1rem;
+    width: 360px;
     display: flex;
-    flex-direction: row;
-    color: #fff;
-    width: 70%;
-    margin-right: 30%;
-}
-.baner-content .content{
-    background: blue;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 0.5rem;
+    border-bottom: 2px solid var(--primari-color);
+    box-shadow: 0 2px 7px rgb(14 55 54 / 15%);
 
 }
-.baner-image img{
+.web-box:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.web-box img{
+    width: 100%;
+    max-height: 40vh;
+    display: block;
+}
+.reaction{
+    display: flex;
+}
+.web-box h1{
+    font-size: 1.5rem;
+    padding-top: 10px;
+}
+.web-box h4{
+    margin: 10px;
+    font-weight: lighter;
+    font-size: 0.8rem;
+    color: var(--primari-color);
+}
+.web-box a{
+    margin: 10px;
+    font-weight: lighter;
+    font-size: 1rem;
+}
+
+/* ----------------------Testmony section---------------------------- */
+
+.testmony {
+    background: rgb(245, 240, 240);
+}
+.testmony-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.testmony .heading{
+    padding-bottom: 40px;
+}
+.testmony-box{
+    background: white;
+    padding: 1rem;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 0.5rem;
+    border-bottom: 2px solid var(--primari-color);
+    box-shadow: 0 2px 7px rgb(14 55 54 / 15%);
+}
+.testmony-box i{
+    padding-bottom: 30px;
+    font-size: 2rem;
+    color: var(--primari-color);
+}
+
+.testmony-box img{
+    width: 25%;
+    border-radius: 100%;
+    border: 2px solid var(--primari-color);
+}
+.testmony-box p{
+    text-align: center;
+    padding-top: 20px;
     width: 50%;
-    margin-left: 15%;
+    
+}
+.testmony-box span{
+    border: 3px solid var(--primari-color);
+   width: 80px;
+   margin-top: 30px;
+   margin-bottom: 30px;
+   background: var(--primari-color);
+    
 }
