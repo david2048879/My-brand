@@ -5,84 +5,77 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog</title>
-    <link rel="stylesheet" href="index.css">
+    <!-- <link rel="stylesheet" href="index.css"> -->
     <link rel="stylesheet" href="blog.css">
     <script src="https://kit.fontawesome.com/d1979c69e4.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@2.1.2/css/boxicons.min.css">
+    <!-- <link rel="stylesheet" href="styles.css"> -->
 </head>
 <body>
     <!-- =========nav bar========= -->
-    <div class="navigation-bar">
-        <nav>
-         <!-- <img src="" alt=""> -->
-         <h1>Logo</h1>
-         <div class="nav-item">
-             <ul>
-                 <li><a href="">Home</a></li>
-                 <li><a href="">About Me</a></li>
-                 <li><a href="">Skills</a></li>
-                 <li><a href="">Mt works</a></li>
-                 <li><a href="">blog</a></li>
-                 <li><a href="">Contact Me</a></li>
-                 <li class="login"><a href="">login</a></li>
-             </ul>
-         </div>
-        </nav>
-     </div>
-     <div class="blog-heading">
-        <ul>
-            <li><a href="">web design</a></li>
-            <li><a href="">Web development</a></li>
-            <li><a href="">marketing</a></li>
-        </ul>
-     </div>
-
-     <section class="web-design">
-        <div class="web-container">
-            <div class="web-box">
-                <img src="./Images/react.jpg" alt="">
-                <h3>HOW TO BUILD A DESIGN PORTFOLIO WITH ZERO CLIENTS</h3>
-                <p>A design portfolio is an excellent way to demonstrate
-                     your skills as a freelancer. As a web designer, 
-                     you compete with millions of other web designers. 
-                     Therefore, you must have a strong portfolio to land a
-                      high-paying web designing job in such a competitive 
-                      space. A strong portfolio sets you apart from others.
-                       Having no clients, however, can make it challenging 
-                       to get your portfolio noticed and build up any 
-                       momentum.</p>
-                       <h2>learn more</h2>
+    <nav class="nav-bar">
+        <div class="nav-items">
+            <div class="logo">
+                <a href="#home"><img src="img/davlogo22.jpg" alt="logo" width="70px" height="70px"></a>
+            
             </div>
-            <div class="web-box">
-                <img src="./Images/phone2.png" alt="">
-                <h3>HOW TO BUILD A DESIGN PORTFOLIO WITH ZERO CLIENTS</h3>
-                <p>A design portfolio is an excellent way to demonstrate
-                     your skills as a freelancer. As a web designer, 
-                     you compete with millions of other web designers. 
-                     Therefore, you must have a strong portfolio to land a
-                      high-paying web designing job in such a competitive 
-                      space. A strong portfolio sets you apart from others.
-                       Having no clients, however, can make it challenging 
-                       to get your portfolio noticed and build up any 
-                       momentum.</p>
-                       <h2>learn more</h2>
-            </div>
-            <div class="web-box">
-                <img src="./Images/hero.PNG" alt="">
-                <h3>HOW TO BUILD A DESIGN PORTFOLIO WITH ZERO CLIENTS</h3>
-                <p>A design portfolio is an excellent way to demonstrate
-                     your skills as a freelancer. As a web designer, 
-                     you compete with millions of other web designers. 
-                     Therefore, you must have a strong portfolio to land a
-                      high-paying web designing job in such a competitive 
-                      space. A strong portfolio sets you apart from others.
-                       Having no clients, however, can make it challenging 
-                       to get your portfolio noticed and build up any 
-                       momentum.</p>
-                       <h2>learn more</h2>
+            <div class="nav-item">
+            <ul class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#team">web design</a></li>
+                    <li><a href="#web development">Web development</a></li>
+                    <li><a href="">marketing</a></li>
+                    <li><a href="#team">Login</a></li>
+            </ul>
+        </div>
+            <div class="menu-btn">
+                <i class="fa fa-bars"></i>
             </div>
         </div>
-     </section>
+    </nav>
+     <div class="blog-heading">
+       
+     </div>
+
+     <section class="team" id="team">
+        <div class="max-width">
+            <h2 class="title">Web design</h2>
+        </div>
+        <div class="carousel owl-carousel">
+            <div class="card">
+                <div class="box">
+                    <img src="./Images/Skills.jpg" alt="img">
+                    <div class="text">12 Awesome UX Design Examples To Copy in 2022</div>
+                    <p>User experience (UX) has gone mainstream.
+                         Companies now realize its importance and invest millions in
+                          hiring UX teams and getting perfect design styles.</p>
+                          <a href="#about">Read more</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <img src="./Images/phone2.png" alt="img">
+                    <div class="text">12 Awesome UX Design Examples To Copy in 2022</div>
+                    <p>User experience (UX) has gone mainstream.
+                         Companies now realize its importance and invest millions in
+                          hiring UX teams and getting perfect design styles.</p>
+                          <a href="#about">Read more</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <img src="./Images/webset.jpg" alt="img">
+                    <div class="text">12 Awesome UX Design Examples To Copy in 2022</div>
+                    <p>User experience (UX) has gone mainstream.
+                         Companies now realize its importance and invest millions in
+                          hiring UX teams and getting perfect design styles.</p>
+                          <a href="#about">Read more</a>
+
+                </div>
+            </div>
+          
+        </div>
+    </section>
      <div class="baner-section">
         <div class="baner-image">
             <img src="./Images/Skills.jpg" alt="">
@@ -92,28 +85,16 @@
             <p>Venture Road Career Days are a great way for participants to discover what type of industry and company they may like to be a part of after the tour. This is possible as Venture Road has access
                  to a vast variety of careers and industries for participants 
                  to explore.</p>
+                 <a href="#about">Contact Me</a>
 
-                 <div class="values">
-                    <h1>Our Core Values</h1>
-                    <u>
-                        <li>Committed to delivering the best</li>
-                        <li>Honest and transparent services</li>
-                        <li>Honest and transparent services</li>
-                        <li>Honest and transparent services</li>
-                    </u>
-                    <div class="learn-more">
-                        <a href="">Contact Me <i class="fa-regular fa-arrow-right"></i></a>
-                    </div>
-                </div> 
+                
         </div>
        
        
      </div>
 
      <section id="web development" class="web">
-        <div class="heading">
-            <h2>web development</h2>
-        </div>
+        <h2 class="title">Web Development</h2>
         
         <div class="web-development">
             <div class="web-box">
@@ -136,7 +117,7 @@
                 </div>
                
             </div>
-            <div class="web-box">
+            <!-- <div class="web-box">
                 <img src="./Images/blog1.PNG" alt="">
                 <h1>Node.js 18 is now available!</h1>
                 <div class="reaction">
@@ -145,7 +126,7 @@
                     <a href="">Read more</a>
                 </div>
                
-            </div>
+            </div> -->
             <div class="web-box">
                 <img src="./Images/blog4.PNG" alt="">
                 <h1>The Best JavaScript I18n Libraries</h1>
@@ -166,7 +147,7 @@
                 </div>
                
             </div>
-            <div class="web-box">
+            <!-- <div class="web-box">
                 <img src="./Images/about.jpg" alt="">
                 <h1>Creating an upvote system with React and Socket.io</h1>
                 <div class="reaction">
@@ -175,7 +156,7 @@
                     <a href="">Read more</a>
                 </div>
                
-            </div>
+            </div> -->
             
         </div>
      </section>
@@ -183,7 +164,8 @@
 
      <section class="testmony">
         <div class="heading">
-            <h2>What My Clients Says</h2>
+            <h2></h2>
+            <h2 class="title">What My Clients Says</h2>
         </div>
         <div class="testmony-container">
             <div class="testmony-box">
@@ -221,7 +203,7 @@
      <!-- ----------------------------------footer section------------------------- -->
 
 <div class="footer">
-    <h2>Mystery Code</h2>
+    <h2>dev Code</h2>
     <div class="footer-secial">
         <a href=""><i class="bx bxl-facebook"></i></a>
         <a href=""><i class="bx bxl-twitter"></i></a>
@@ -234,5 +216,8 @@
     <a href="">created By <a href="">david48879d</a>/ All Right Reserved</a>
 </div>
 
+<!-- <script src = "jquery-3.6.0.min.js"></script>
+<script src="owl.carousel.min.js"></script>
+<script src="script.js"></script> -->
 </body>
 </html>
