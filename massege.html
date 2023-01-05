@@ -6,8 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="admin.css">
+
+
+   
 </head>
 <body>
+    <style>
+        .msg{
+            margin-left: 5%;
+            max-width: 50%;
+            border: 2px solid black;
+        }
+        span{
+            font-weight: normal;
+        }
+      
+    </style>
     
     <header role="banner">
         <h1>Admin page</h1>
@@ -20,7 +34,7 @@
       
       <nav role='navigation'>
         <ul class="main">
-          <li class="dashboard"><a href="admindashboard">Dashboard</a></li>
+          <li class="dashboard"><a href="admin.html">Dashboard</a></li>
           <li class="edit"><a href="#">Edit Website</a></li>
           <li class="write"><a href="#">Write news</a></li>
           <li class="comments"><a href="#">Ads</a></li>
@@ -35,31 +49,21 @@
       
       <main role="main">
         
-        <section class="panel important">
-          <h2>Write Some News</h2>
-          <ul>
-            <li>Information Panel</li>
-          </ul>
-        </section>
-        
-        <section class="panel important">
-          <h2>Write a post</h2>
-            <form action="" method="post">
-              <div class="twothirds">
-                Blog title:<br/>
-                <input type="text" name="title" size="40"/><br/><br/>
-                Content:<br/>    
-                <textarea name="newstext" rows="15" cols="67"></textarea><br/>  
-              </div>
-              <div>
-                <input type="submit" name="submit" value="Save" />
-              </div>
-              </div>
-            </form>
+        <section class="massagescontainer">
+          <h1>massages</h1>
+
+          <div class="massages" id="massages"></div>
+
+          <div class="msg" id="msg">
+            <h1 class="getName">Name: <span>david</span></h1>
+            <h1 class="GetEmail">Email: <span>ddavid@gmail.com</span></h1>
+            <h1 class="getMessage">Massage: <span>I would like to hire you bcz I see your CV</span></h1>
+
+          </div>
         </section>
       
       </main>
-      
+      <script src="message.js"></script>
 
 </body>
 </html>

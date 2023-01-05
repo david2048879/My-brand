@@ -2,250 +2,225 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My-Portfolio</title>
-    <link rel="stylesheet" href="index.css">
-    <script src="https://kit.fontawesome.com/d1979c69e4.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@2.1.2/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="owl.carousel.min.css">
+    <link rel="stylesheet" href="owl.theme.default.min.css">
+    <link rel="stylesheet" href="owl.theme.green.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>david protofolio</title>
 </head>
 <body>
-    <div id="home">
-    <div class="navigation-bar">
-   <nav>
-    <!-- <img src="" alt=""> -->
-    <h1>Logo</h1>
-    <div class="nav-item">
-        <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">About Me</a></li>
-            <li><a href="">Skills</a></li>
-            <li><a href="">Mt works</a></li>
-            <li><a href="">blog</a></li>
-            <li><a href="">Contact Me</a></li>
-            <li class="login"><a href="">login</a></li>
-        </ul>
-    </div>
-   </nav>
-</div>
-
-<div class="hero">
-    <img src="./Images/hero.PNG" alt="a">
-    <div class="contant">
-        <h1>Digital Agency That <span>Thrives on Your Success</span></h1>
-        <button class="btn">Find out How</button>
-    </div>
-</div>
-</div>
-
-<!-- ---------about me section-------- -->
-
-<section id="about-section"> 
-    <div class="heading">
-        <h2>About Me</h2>
-    </div>
-    <div class="about-container">
-    <div class="about">
-        <h2>Developing With a Passion While Exploring The World.</h2>
-        <p>Venture Road Career Days are a great way for participants 
-            to discover what type of industry and company they may 
-            like to be a part of after the tour. This is possible 
-            as Venture Road has access to a vast 
-            variety of careers and industries for participants
-             to explore.</p>
-
-             <button class="btn">Contact me</button>
-    </div>
-    <div class="about-2">
-        <h2>I Create Products Not Just Arts</h2>
-        <p>I’m self motivator I spend many time 
-            in internet to explore a new knowledge and knew technology.
-        </p>
-        <label>Let's talk with me. <span>david48879d@gmail.com </span></label>
-        <div class="icons">
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-square-instagram"></i>
-            <i class="fa-brands fa-linkedin"></i>
-            <i class="fa-brands fa-facebook"></i>
-        </div>
-    </div>
-    <div class="imag">
-        <img src="./Images/about.jpg" alt="">
-
-    </div>
-
-</div>     
-</section>
-
-<!-- ------------------------Skills section------------------------------------- -->
-
-<section class="Skills" id="skills">
-    <div class="heading">
-        <h2>Skills</h2>
-        <span>My Skills</span>
-    </div>
-    <!-- -------Skills content-------- -->
-    <div class="skills-container">
-        <div class="bars">
-            <!-- box1 -->
-            <div class="bars-box">
-                <h3>HTML/Css</h3>
-                <span>94</span>
-                <div class="light-bar"></div>
-                <div class="percent-bar html-bar"></div>
-
-            </div>
-            <!-- box 2 -->
-            <div class="bars-box">
-                <h3>UI/UX Design</h3>
-                <span>90</span>
-                <div class="light-bar"></div>
-                <div class="percent-bar design-bar"></div>
-
-            </div>
-            <div class="bars-box">
-                <h3>Javascript</h3>
-                <span>86</span>
-                <div class="light-bar"></div>
-                <div class="percent-bar js-bar"></div>
-
-            </div>
-            <!-- box 3 -->
-            <div class="bars-box">
-                <h3>React Js</h3>
-                <span>80</span>
-                <div class="light-bar"></div>
-                <div class="percent-bar react-bar"></div>
-
-            </div>
-            <!-- box 4 -->
-            <div class="bars-box">
-                <h3>Node Js</h3>
-                <span>75</span>
-                <div class="light-bar"></div>
-                <div class="percent-bar node-bar"></div>
-
-            </div>
-           
-            <div class="bars-box">
-                <h3>system Intergration</h3>
-                <span>70</span>
-                <div class="light-bar"></div>
-                <div class="percent-bar api-bar"></div>
-
+    <nav class="nav-bar">
+        <div class="max-width">
+            <div class="logo"><a href="#home"><img src="img/davlogo22.jpg" alt="logo" width="70px" height="70px"></a></div>
+            <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#team">protofolio</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="./login/login.html">Login</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fa fa-bars"></i>
             </div>
         </div>
-        <!-- ----image -->
-        <div class="skills-image">
-            <img src="./Images/Skills.jpg" alt="">
+    </nav>
+    <!--home section-->
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1"> Hello! my name is</div>
+                <div class="text-2">NGENDAHIMANA David</div>
+                <div class="text-3">And I'm <span>fullstack Developer</span></div>
+                <a href="#contact" class="btn btn-home">hire me</a>
+            </div>
         </div>
-    </div>
-</section>
-
-<!-- -----------------------My work section--------------------------- -->
-
-<section class="services" id="my-work">
-
-    <div class="heading">
-        <h2>Services</h2>
-        <span>Our Services</span>
-    </div>
-    <div class="services-container">
-        <!-- box 1 -->
-        <div class="services-box">
-            <i class="bx bx-code-alt"></i>
-            <h3>web Developement</h3>
-            <a href="Learn More"></a>
+    </section>
+    <!--about section-->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">About me</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="img/davabout.jpg" alt="david image">
+                </div>
+                <div class="column right">
+                    <div class="text">I’m <SPan>Fullstack Developer</SPan> NGENDHIMANA David</div>
+                    <p>Am genuinely a positive person; I keep myself active and I want learn from more
+                         experienced people than myself and am hard worker who is constantly looking for way to learn more about what I love.    Am Rwandan, experienced civil engineer,  Am holder of bachelor degree in civil engineering geotechnical engineering.</p>
+                    <a href="img/my cv.pdf" class="download" download="kalisa-CV">download my cv</a>
+                </div>
+            </div>
         </div>
-        <!-- box 2 -->
-        <div class="services-box">
-            <i class="bx bx-server"></i>
-            <h3>Backend Development</h3>
-            <a href="Learn More"></a>
+    </section>
+    <!--services section-->
+    <section class="services" id="services">
+        <div class="max-width">
+            <h2 class="title">My services</h2>
+            <div class="services-content">
+                <div class="card">
+                    <div class="box">
+                        <div class="text">UI/UX Designer</div>
+                        <img src="./Images/about me.jpg" width="300px" height="300px" alt="soilimg">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <div class="text">Web Developer </div>
+                        <img src="./Images/about.jpg" width="300px" height="300px" alt="soilimg">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <div class="text">Software developer</div>
+                        <img src="./Images/phone2.png" width="300px" height="300px" alt="soilimg">
+                    </div>
+                </div>
+            </div>
         </div>
-
-        <div class="services-box">
-            <i class="bx bx-brush"></i>
-            <h3>UI/UX Design</h3>
-            <a href="Learn More"></a>
+    </section>
+    <!--skills section-->
+    <section class="skills" id="skills">
+        <div class="max-width">
+            <h2 class="title">My skills</h2>
+            <div class="skills-content">
+                <div class="column left">
+                    <div class="text">My creative skills and experience</div>
+                    <p>I am experienced in software development, UI/UX design, marketing, mulesoft</p>
+                    <a href="#about">Read more</a>
+                </div>
+                <div class="column right">
+                    <div class="bars">
+                        <div class="info">
+                            <span>UI/UX Designe </span>
+                            <span>95%</span>
+                        </div>
+                        <div class="line html"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Web development</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="line css"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Intergaration System</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="line js"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Marketing</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="line php"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Software testing</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="line mysql"></div>
+                    </div>
+                </div>
+            </div>
         </div>
-
-        <div class="services-box">
-            <i class="bx bxl-wordpress"></i>
-            <h3>Wordpress Developement</h3>
-            <a href="Learn More"></a>
+    </section>
+    <!--teams section-->
+    <section class="team" id="team">
+        <div class="max-width">
+            <h2 class="title">My protofolio</h2>
         </div>
-
-    </div>
-
-</section>
-
-<!-- ----------------Portfolio section------------------------- -->
-<section class="portfolio" id="portfolio">
-    <div class="heading">
-        <h2>Portfolio</h2>
-        <span>our recent Work</span>
-    </div>
-    <div class="portfolio-content">
-        <div class="portfolio-img">
-            <img src="./Images/phone2.png" alt="">
+        <div class="carousel owl-carousel">
+            <div class="card">
+                <div class="box">
+                    <img src="./Images/Skills.jpg" alt="img">
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <img src="./Images/phone2.png" alt="img">
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <img src="./Images/webset.jpg" alt="img">
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <img src="./Images/Skills.jpg" alt="img">
+                </div>
+            </div>
         </div>
-        <div class="portfolio-img">
-            <img src="./Images/react.jpg" alt="">
+    </section>
+    <!--CONTACT SECTION-->
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Contact Me</h2>
+            <div class="contact-content">
+                <div class="column left">
+                    <div class="text">get in touch</div>
+                    <p>For more infomation <br> reach me out <br></p>
+                    <div class="icons">
+                        <div class="row">
+                            <i class="fa-solid fa-user"></i>
+                            <div class="info">
+                                <div class="head">NAME</div>
+                                <div class="sub-title">NGENDAHIMANA David</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="info">
+                                <div class="head">ADDRESS</div>
+                                <div class="sub-title">KIGALI, RWANDA</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-envelope"></i>
+                            <div class="info">
+                                <div class="head">E-MAIL</div>
+                                <div class="sub-title">david48879d@gmail.com</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column right">
+                    <div class="text">Message Me</div>
+                    <form action="#" id="contactForm">
+                        <div class="fields">
+                            <div class="field name">
+                                <input type="text" id="name" name="name"  placeholder="your name" required>
+                            </div>
+                            <div class="field email">
+                                <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
+                            </div>
+                        </div>
+                        <div class="field textarea">
+                            <textarea  cols="30" rows="10" id="message" placeholder="your message" required></textarea>
+                        </div>
+                        <div class="button">
+                            <button id="send" type="submit">send message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
-        <div class="portfolio-img">
-            <img src="./Images/webset.jpg" alt="">
-        </div>
-        <div class="portfolio-img">
-            <img src="./Images/portfolio 2.jpg" alt="">
-        </div><div class="portfolio-img">
-            <img src="./Images/Skills.jpg" alt="">
-        </div>
-        <div class="portfolio-img">
-            <img src="./Images/hero.PNG" alt="">
-        </div>
-        <div class="portfolio-img">
-            <img src="./Images/phone2.png" alt="">
-        </div>
-        <div class="portfolio-img">
-            <img src="./Images/about me.jpg" alt="">
-        </div>
-    </div>
-</section>
-
-<!-- -----------------------Contact me section--------------------- -->
-<section class="contact" id="contact">
-    <div class="heading">
-        <h2>contact</h2>
-        <span>contact with us</span>
-    </div>
-    <div class="contact-form">
-        <form action="">
-            <input type="text" placeholder="Your Name">
-            <input type="email" placeholder="Your Email">
-            <textarea name="" id="" cols="30" rows="10"></textarea>
-            <input type="button" value="Send" class="contact-button">
-
-        </form>
-    </div>
-
-</section>
-
-<!-- ----------------------------------footer section------------------------- -->
-
-<div class="footer">
-    <h2>Mystery Code</h2>
-    <div class="footer-secial">
-        <a href=""><i class="bx bxl-facebook"></i></a>
-        <a href=""><i class="bx bxl-twitter"></i></a>
-        <a href=""><i class="bx bxl-instagram"></i></a>
-        <a href=""><i class="bx bxl-youtube"></i></a>
-    </div>
-
-</div>
-<div class="copyright">
-    <a href="">created By <a href="">david48879d</a>/ All Right Reserved</a>
-</div>
-
+    </section>
+    <footer>
+        <span><a href="#home">NGENDAHIMANA David</a> | <span class="far fa-copyright"></span>2022 all rights reserved</span>
+    </footer>
+    <script src = "jquery-3.6.0.min.js"></script>
+    <script src="owl.carousel.min.js"></script>
+    <script src="script.js"></script>
+    <script src="localStorege.js"></script>
 </body>
 </html>
