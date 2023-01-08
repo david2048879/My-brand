@@ -12,14 +12,32 @@
 </head>
 <body>
     <style>
-        .msg{
-            margin-left: 5%;
-            max-width: 50%;
-            border: 2px solid black;
-        }
-        span{
-            font-weight: normal;
-        }
+      .massagescontainer{
+        position: absolute;
+        left: 30%;
+        
+      }
+      .messages{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+
+      }
+      .messages div{
+        padding: 30px;
+        margin: 10px;
+        max-height: 10vh;
+        overflow: hidden;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+        
+      }
+      .messages div h2{
+        color: black;
+        align-content: center;
+      }
+      .messages div:hover{
+        max-height: 30vh;
+      }
       
     </style>
     
@@ -35,10 +53,7 @@
       <nav role='navigation'>
         <ul class="main">
           <li class="dashboard"><a href="admin.html">Dashboard</a></li>
-          <li class="edit"><a href="#">Edit Website</a></li>
-          <li class="write"><a href="#">Write news</a></li>
-          <li class="comments"><a href="#">Ads</a></li>
-          <li class="users"><a href="#">Manage Users</a></li>
+          <li class="write"><a href="#">manage Blogs</a></li>
           <li class="users"><a href="#">manage abouts</a></li>
           <li class="comments"><a href="massege.html">massages <span>10</span></a></li>
           <li class="edit"><a href="#"> Edit portfolio page</a></li>
@@ -52,14 +67,8 @@
         <section class="massagescontainer">
           <h1>massages</h1>
 
-          <div class="massages" id="massages"></div>
+          <div class="messages"></div>
 
-          <div class="msg" id="msg">
-            <h1 class="getName">Name: <span>david</span></h1>
-            <h1 class="GetEmail">Email: <span>ddavid@gmail.com</span></h1>
-            <h1 class="getMessage">Massage: <span>I would like to hire you bcz I see your CV</span></h1>
-
-          </div>
         </section>
       
       </main>
